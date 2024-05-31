@@ -1,0 +1,275 @@
+.title>h1{
+    font-size: 5rem;
+    font-weight: bold;
+    text-align: center;
+    color: #66bfbf;
+    font-family: "Sacramento",cursive;
+}
+
+#element{
+    font-family: "Sacramento",cursive;
+    font-weight: bold;
+}
+
+.title>p{
+    font-size: 2.5rem;
+    text-align: center;
+    color: #66bfbf;
+
+
+}
+
+.title{
+background-color: #E6FFFD;
+}
+
+.mountain{
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  height: 330px;
+  width: 600px;
+}
+
+.top-cloud{
+    margin-left: 950px;
+    margin-top: 30px;
+
+}
+
+.bottom-cloud{
+    margin-left: 250px;
+}
+
+.pro{
+    text-decoration: underline;
+}
+
+.profile>img{
+    border-radius: 50%;
+    height: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+
+}
+
+.profile>h1{
+    text-align: center;
+    font-size: 2.5rem;
+    color: #66bfbf;
+    font-family: "Montserrat", sans-serif;
+    font-weight: normal;
+
+}
+
+.profile>p{
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: lighter;
+    color: #40514e;
+}
+
+hr{
+    border: dotted #eaf6f6 6px;
+    border-bottom: none;
+    width: 4%;
+    margin: 100px auto;
+}
+
+.skills>h1{
+    text-align: center;
+    font-size: 2.5rem;
+    color: #66bfbf;
+    font-family: "Montserrat", sans-serif;
+    font-weight: normal;
+
+}
+
+.typing>img{
+    display: grid;
+    height: 220px;
+    float: left;
+    
+}
+
+.chillies>img{
+    display: grid;
+    height: 150px;
+    float: left;
+}
+
+h3{
+    color: #66bfbf;
+    font-family: "Montserrat", sans-serif;
+
+}
+
+.coding>p{
+    color: #40514e;
+    font-size: 18px;
+}
+
+.hot-wings>p{
+    color: #40514e;
+    font-size: 18px;
+}
+
+.chilli-img{
+   margin-left: 30px;
+}
+
+
+.parent {
+    display: grid;
+    grid-template-columns: 0.5fr 1fr;
+    grid-template-rows: repeat(1, 1fr);
+    width: 50%;
+    margin: 100px auto 0 auto;
+    text-align: left;
+    row-gap: 2rem;
+}
+
+.contact>h1{
+    font-size: 2.5rem;
+    color: #66bfbf;
+    font-family: "Montserrat", sans-serif;
+    font-weight: normal;
+}
+
+
+.contact{
+    text-align: center;
+}
+
+.contact>p{
+    color:#40514e ;
+    font-size: 18px;
+}
+
+.btn{
+    background-color: #11cdd4;
+    border-radius: 5px;
+    height: 40px;
+    width: 150px;
+    border: #11cdd4;
+    color: white;
+    font-size: 17px;
+
+}
+
+.bottom-container {
+    background-color: #66bfbf;
+    padding: 50px 0 20px;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.bottom-container>a{
+    color: #11999e;
+    font-family: "Montserrat", sans-serif;
+    margin: 10px 20px;
+    text-decoration: none;
+}
+
+.mountain{
+    height: 700px;
+    width: 1000px;
+    position: relative;
+    bottom: 140px;
+}
+
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.menu-icon {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    cursor: pointer;
+    font-size: 24px;
+    z-index: 9999;
+}
+
+.menu-icon:hover {
+    color: #fff; /* Change color on hover if desired */
+}
+
+#menu-toggle {
+    display: none;
+}
+
+.navbar {
+    position: fixed;
+    left: -200px;
+    top: 0;
+    height: 100%;
+    width: 200px;
+    background-color: #66bfbf;
+    padding-top: 20px;
+    transition: left 0.3s;
+}
+
+#menu-toggle:checked + .menu-icon + .navbar {
+    left: 0;
+}
+
+.navbar ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.navbar ul li {
+    padding: 10px 0;
+}
+
+.navbar ul li a {
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    transition: background-color 0.3s;
+}
+
+.navbar ul li a:hover {
+    background-color: #555;
+}
+
+.content {
+    margin-left: 220px; /* Adjust this value to leave space for the navbar */
+    padding: 20px;
+}
+
+.skills {
+    margin-top: 20px;
+    text-align: center; /* Center-align all content */
+}
+
+.skills ul {
+    list-style-type: none;
+    padding-left: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.skills ul li {
+    margin-bottom: 5px;
+    display: flex;
+    align-items: center;
+}
+
+.skills ul li img {
+    margin-right: 10px; /* Adjust as needed */
+}
+
+
+  
+
+

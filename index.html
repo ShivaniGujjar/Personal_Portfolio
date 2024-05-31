@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat&family=Sacramento&display=swap" rel="stylesheet">
+    
+    
+    <title>Personal Site</title>
+</head>
+
+<body>
+    
+    <input type="checkbox" id="menu-toggle">
+    <label for="menu-toggle" class="menu-icon">&#9776;</label>
+
+    <nav class="navbar"> <br>
+        <ul>
+            <li><a href="#home" onclick="navigateTo('home')">Home</a></li>
+            <li><a href="#about" onclick="navigateTo('about')">About</a></li>
+            <li><a href="#projects" onclick="navigateTo('projects')">Projects</a></li>
+            <li><a href="#contact" onclick="navigateTo('contact')">Contact Me</a></li>
+        </ul>
+    </nav>
+
+    <!-- Title -->
+    <section>
+        <div class="title" id="home">
+            <img class="top-cloud" src="cloud.png" alt="">
+            <h1>I'm Shivani.</h1>
+            <p><span class="pro" id="element"></span></p>
+            <img class="bottom-cloud" src="cloud.png" alt="">
+            <img class="mountain" src="portfolio image.png" alt="">
+        </div>
+    </section>
+
+    
+
+    <!-- Profile -->
+    <section>
+        <div class="profile" id="about">
+            <img src="Kermit_the_Frog.jpg" alt="">
+            <h1>Hello.</h1>
+            <p>I am an Bca Graduate and Web Developer. <br> I ❤️ Bournvita and Cold-drinks.
+            </p>
+            <hr>
+        </div>
+    </section>
+
+    <!-- Skills -->
+    <section>
+        <div class="skills">
+            <h1>My Skills</h1>
+            <div>
+                <div class="parent">
+        
+                    <h3 style="text-align: center;">Programming Languages</h3> <br>
+            
+                    <img src="html.png" style="height: 100px;" alt="HTML/CSS"> <br>
+        
+                    <!-- <li><img src="python.png" alt="Python"> Python</li> -->
+                    <!-- Add more skills as needed -->
+            
+                <h3 style="text-align: center;">Frameworks/Libraries</h3> <br>
+                <ul>
+                    <li><img src="react.png" alt="React.js" style="height: 100px;"></li>
+                    <li><img src="node.png" alt="Node.js" style="height: 100px;"></li>
+                    <li><img src="bootstrap.png" alt="Bootstrap" style="height: 100px;"> </li>
+                    <!-- Add more skills as needed -->
+                </ul>
+                <!-- Add more skill categories as needed -->
+            </div>
+                    
+
+                </div>
+        
+        </div>
+        <hr>
+    </section>
+
+    <!-- Contact Me -->
+
+    <section>
+        <div class="contact" id="contact">
+            <h1>Get In Touch</h1>
+            <h3>If you love hot wings as much as I do.</h3>
+            <p>Love hot wings as much as I do? Let's talk about how awesome they are! <br> We can code while we eat hot
+                wings!</p>
+                <button class="btn btn-primary d-inline-flex align-items-center" type="button">
+                   <p style="margin-bottom: 10px;">Contact Me</p> 
+                    
+                  </button>
+        </div>
+    </section>
+
+    <!-- Footer -->
+
+    <section>
+        <div class="bottom-container">
+            <a style="color: white;" class="footer-link" href="https://www.linkedin.com/in/shivani-gujjar-b20bb9228/">LinkedIn</a>
+            <a style="color: white; "class="footer-link" href="https://twitter.com/Inavish_Buttar">Twitter</a>
+            <p style="color: white;" class="copyright">© Shivani Gujjar.  </p>
+          </div>
+    </section>
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <!-- Setup and start animation! -->
+  <script>
+    var typed = new Typed('#element', {
+      strings: ['Front End Developer', 'Back End Developer','Android Developer','UI/UX Designer'],
+      typeSpeed: 50,
+    });
+  </script>
+  <script src="script.js"></script>
+</body>
+
+</html>
